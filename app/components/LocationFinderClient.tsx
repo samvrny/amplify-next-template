@@ -10,10 +10,10 @@ export default function LocationFinderClient() {
     const getLocation = async () => {
 
         const response = await fetch('https://apip.cc/json');
-        console.log(response);
+        //console.log(response);
 
         const locationData = await response.json();
-        console.log(locationData);
+        //console.log(locationData);
 
         setLocationInfo(locationData);
     }
