@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react"
+import "../../app/app.css";
 
 export default function LocationFinderClient() {
 
-    const [locationInfo, setLocationInfo] = useState({});
+    const [locationInfo, setLocationInfo] = useState({City: "N/A"}); //the default must be set here or the deployment won't build! 
 
     const getLocation = async () => {
 

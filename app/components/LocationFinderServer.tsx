@@ -9,6 +9,7 @@
  * reference. 
  */
 
+import "../../app/app.css";
 
 export default async function LocationFinderServer() {
 
